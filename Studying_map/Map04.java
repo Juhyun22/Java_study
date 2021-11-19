@@ -8,17 +8,17 @@ import java.util.Scanner;
 public class Map04 {
 
 	public static void main(String[] args) {
-		// {장르1={책제목1=작가1, 책제목2=작가2}, 장르2={책제목1=작가1, 책제목2=작가2}}
+	// {장르1={책제목1=작가1, 책제목2=작가2}, 장르2={책제목1=작가1, 책제목2=작가2}}
 
         // {
         //    자기계발={더 해빙=이서윤,홍주연, 말 그릇=김윤나, 메모의 마법=마에다 유지},
         //    소설={어린왕자=생텍쥐페리, 아몬드=손원평, 나미야 잡화점의 기적=히가시노 게이고, 해변의 카프카=무라카미 하루키},
         //    과학={시간은 흐르지 않는다=카를로 로벨리, 코스모스=칼 세이건, 평행우주=미치오 카쿠}
         // }
-		Map<String, Map<String, String>> bookMap = new HashMap<>();
+	Map<String, Map<String, String>> bookMap = new HashMap<>();
 		
-		Map<String, String> map1 = new HashMap<>();
-		map1.put("더 해빙", "이서윤,홍주연");
+	Map<String, String> map1 = new HashMap<>();
+	map1.put("더 해빙", "이서윤,홍주연");
         map1.put("말 그릇", "김윤나");
         map1.put("메모의 마법", "마에다 유지");
         
@@ -67,6 +67,6 @@ public class Map04 {
         	}
         	
         }
-	}
+   }
 
 }
