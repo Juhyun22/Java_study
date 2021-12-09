@@ -1,6 +1,6 @@
 package Testing;
 
-public class Test {
+public class Quiz03 {
 
 	public static void main(String[] args) {
 		// 1. 평균 구하기 
