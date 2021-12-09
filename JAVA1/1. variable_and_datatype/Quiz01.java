@@ -1,6 +1,6 @@
 package Testing;
 
-public class Test {
+public class Quiz01 {
 
 	public static void main(String[] args) {
 		String name = "박보라";
