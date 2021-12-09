@@ -1,6 +1,6 @@
 package Testing;
 
-public class Test {
+public class Quiz02 {
 
 	public static void main(String[] args) {
 		// 1. 변수 출력
